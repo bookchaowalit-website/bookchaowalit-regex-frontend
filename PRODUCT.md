@@ -19,6 +19,14 @@ See `README.md` for install and run instructions when present.
 - Not claimed as production-ready unless README and tests prove it.
 - Mobile smoke / emulator acceptance is separate and toolchain-dependent.
 
+## Current product truth
+
+- A client-side JavaScript RegExp tester with pattern, flags, and sample text.
+- The surface shows highlighted matches, match indexes, and engine errors for
+  invalid patterns.
+- It follows JavaScript RegExp semantics, not PCRE or Python; there is no API,
+  saved workspace, account, or remote execution.
+
 ## Source README excerpt
 
 ```
